@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "pushtomeow",
+  "version": "${version}",
+  "name": "Push To Meow",
+  "description": "wawa!",
+  "authors": [
+    "BobaBeetle (gooeybee)"
+  ],
+  "contact": {},
+  "license": "GPL-3.0",
+  "icon": "assets/pushtomeow/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "fabric-datagen": [
+      "net.goobee.pushtomeow.client.PushToMeowDataGenerator"
+    ],
+    "client": [
+      "net.goobee.pushtomeow.client.PushToMeowClient"
+    ],
+    "main": [
+      "net.goobee.pushtomeow.PushToMeow"
+    ],
+    "modmenu": [
+      "net.goobee.pushtomeow.config.ModMenuIntegration"
+    ]
+  },
+  "mixins": [
+    "pushtomeow.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric-api": "*",
+    "minecraft": "${minecraft_version}",
+    "fabric-key-binding-api-v1": "*",
+    "yet_another_config_lib_v3": ">=${yacl_version}"
+  },
+  "suggests": {}
+}

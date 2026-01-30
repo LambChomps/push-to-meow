@@ -1,0 +1,103 @@
+{
+  "sound.pushtomeow.meow": "Slugcat Meowing",
+  "sound.pushtomeow.meow.bruh": "Slugcat Meowing???",
+  "sound.pushtomeow.meow.spear": "Slugcat Meowing?",
+
+  "key.category.pushtomeow.meow": "Push To Meow",
+  "key.category.pushtomeow.meow_extended": "Push To Meow - Extended",
+
+  "key.pushtomeow.meow": "Meow",
+  "key.pushtomeow.meow_modifier": "Meow Modifier (Not Bound = Sneak)",
+
+  "key.pushtomeow.extended.meow_coarse": "Meow - Coarse",
+  "key.pushtomeow.extended.meow_fat": "Meow - Fat",
+  "key.pushtomeow.extended.meow_normal": "Meow - Normal",
+  "key.pushtomeow.extended.meow_pup": "Meow - Pup",
+  "key.pushtomeow.extended.meow_rivulet_a": "Meow - Rivulet (A)",
+  "key.pushtomeow.extended.meow_rivulet_b": "Meow - Rivulet (B)",
+  "key.pushtomeow.extended.meow_sofanthiel": "Meow - SOFANTHIEL",
+  "key.pushtomeow.extended.meow_spear": "Meow - Spear",
+  "key.pushtomeow.extended.meow_watcher": "Meow - Watcher",
+  "key.pushtomeow.extended.meow_whispery": "Meow - Whispery",
+  "key.pushtomeow.extended.meow_altinv_andrew": "Meow - Andrew",
+  "key.pushtomeow.extended.meow_altinv_inv": "Meow - INV",
+
+  "customsound.pushtomeow.coarse": "Coarse",
+  "customsound.pushtomeow.fat": "Fat",
+  "customsound.pushtomeow.normal": "Normal",
+  "customsound.pushtomeow.pup": "Pup",
+  "customsound.pushtomeow.rivulet_a": "Rivulet (A)",
+  "customsound.pushtomeow.rivulet_b": "Rivulet (B)",
+  "customsound.pushtomeow.sofanthiel": "SOFANTHIEL",
+  "customsound.pushtomeow.spear": "Spear",
+  "customsound.pushtomeow.watcher": "Watcher",
+  "customsound.pushtomeow.whispery": "Whispery",
+  "customsound.pushtomeow.altinv_andrew": "Andrew",
+  "customsound.pushtomeow.altinv_inv": "INV",
+
+
+
+  "config.menu.pushtomeow.main": "Push To Meow",
+
+  "config.category.pushtomeow.client": "Meow - Client",
+  "config.category.tooltip.pushtomeow.client": "Meow",
+  "config.category.pushtomeow.server": "Meow - Server",
+  "config.category.tooltip.pushtomeow.server": "Meow²",
+
+  "config.group.pushtomeow.general": "General",
+  "config.group.pushtomeow.pitch": "Pitch Settings",
+  "config.group.pushtomeow.server": "Server Control",
+
+  "config.option.pushtomeow.meow_button": "\uD83D\uDC08",
+  "config.option.description.pushtomeow.meow_button": "\n§8Art by Pansear, from the Rainworld Pandemonium Emotes Discord!",
+
+  "config.option.pushtomeow.meow_select": "Meow Sound",
+  "config.option.description.pushtomeow.meow_select": "The sound that plays when using the default meow keybind.\n\n§7Right/shift click to reverse, overwritten if set by server!\n\n§8(Default: Normal)",
+
+  "config.option.pushtomeow.modifier_type": "Modifier Type",
+  "config.option.description.pushtomeow.modifier_type": "§f§lDefault: §7Play modified sound while modifier key is pressed.\n§8§lInverted: §7Play default sound while modifier key is is pressed.\n§a§lAlways: §7Always play modified sound.\n§c§lNever: §7Never play modified sound.",
+
+  "config.option.pushtomeow.pitch_default": "Default Pitch",
+  "config.option.description.pushtomeow.pitch_default": "The meow pitch before being optionally adjusted pitch variance and player pitch°.\n\n§8(Default = 1.0)",
+
+  "config.option.pushtomeow.pitch_variance": "Pitch Variance",
+  "config.option.description.pushtomeow.pitch_variance": "The random +-variance the default meow pitch gets adjusted by.\n\n§7Adjusting a total sound pitch below 0.5 or above 2.0 will have no effect!\n\n§8(0 = Disabled | Default = 0.1)",
+
+  "config.option.pushtomeow.pitch_effect": "Pitch-Pitch Effect",
+  "config.option.description.pushtomeow.pitch_effect": "The max +-value meow pitch gets adjusted by player pitch°.\n\n§7Adjusting a total sound pitch below 0.5 or above 2.0 will have no effect!\n\n§8(0 = Disabled | Default = 0.25)",
+
+  "config.option.pushtomeow.positive_pitch_effect": "Positive Pitch Pitch Effect",
+  "config.option.description.pushtomeow.positive_pitch_effect": "The max value meow pitch gets adjusted by +player pitch°.\n\n§7Adjusting a total sound pitch below 0.5 or above 2.0 will have no effect!\n\n§8(0 = Disabled | Default = 0.5)",
+
+  "config.option.pushtomeow.negative_pitch_effect": "Negative Pitch Pitch Effect",
+  "config.option.description.pushtomeow.negative_pitch_effect": "The max value meow pitch gets adjusted by -player pitch°.\n\n§7Adjusting a total sound pitch below 0.5 or above 2.0 will have no effect!\n\n§8(0 = Disabled | Default = 0.25)",
+
+  "config.option.pushtomeow.pitch_angle_default": "Default Pitch Angle",
+  "config.option.description.pushtomeow.pitch_angle_default": "The +-bounds of which meow pitch will be considered default.\n\n§8(Default = 0°)",
+
+  "config.option.pushtomeow.pitch_angle_max": "Max Pitch Angle",
+  "config.option.description.pushtomeow.pitch_angle_max": "The +-angle required for meow pitch to be considered max.\n\n§8(Default = 75°)",
+
+
+
+  "config.option.pushtomeow.whitelist": "Whitelist",
+  "config.option.description.pushtomeow.whitelist": "Replaces all meows except those listed here with the normal meow.\n\n§7Overwrites Blacklist! Format as sound id: \"pushtomeow:meow.<name>\"\n\n§8(Names: coarse, fat, normal, pup, rivulet.a, rivulet.b, sofanthiel, spear, watcher, whispery, altinv.andrew, altinv.inv)",
+
+  "config.option.pushtomeow.blacklist": "Blacklist",
+  "config.option.description.pushtomeow.blacklist": "Meows that will be replaced by the normal meow.\n\n§7Overwritten by whitelist if it exists! Format as sound id: \"pushtomeow:meow.<name>\"\n\n§8(Names: coarse, fat, normal, pup, rivulet.a, rivulet.b, sofanthiel, spear, watcher, whispery, altinv.andrew, altinv.inv)",
+
+  "config.option.pushtomeow.cooldown": "Cooldown",
+  "config.option.description.pushtomeow.cooldown": "The cooldown (in seconds) for meowing.\n\n§8(Default: 0.5s)",
+
+  "config.option.pushtomeow.volume": "Volume (Distance)",
+  "config.option.description.pushtomeow.volume": "The \"volume\" all meows play at.\n\n§7Values >1 only effect the distance the sound can be heard from. Every 1 volume = ~16 blocks!\n\n§8(Default: 1.5)",
+
+  "config.option.pushtomeow.modified_volume_mul": "Modified Volume Multiplier",
+  "config.option.description.pushtomeow.modified_volume_mul": "The volume multiplier applied to modified meows.\n\n§8(Default: 0.75)",
+
+  "config.option.pushtomeow.min_pitch": "Min Pitch",
+  "config.option.description.pushtomeow.min_pitch": "Prevents meow pitch from going below this value.\n\n§8(Default: 0.5)",
+
+  "config.option.pushtomeow.max_pitch": "Max Pitch",
+  "config.option.description.pushtomeow.max_pitch": "Prevents meow pitch from going above this value.\n\n§8(Default: 2.0)"
+}

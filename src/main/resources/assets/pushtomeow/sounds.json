@@ -1,0 +1,274 @@
+{
+    "meow.coarse": {
+        "subtitle": "sound.pushtomeow.meow",
+        "sounds": [
+            "pushtomeow:meow/meowcoarse1",
+            "pushtomeow:meow/meowcoarse2",
+            "pushtomeow:meow/meowcoarse3",
+            "pushtomeow:meow/meowcoarse4",
+            "pushtomeow:meow/meowcoarse5",
+            "pushtomeow:meow/meowcoarse6",
+            "pushtomeow:meow/meowcoarse7",
+            "pushtomeow:meow/meowcoarse8"
+        ]
+    },
+    "meow.coarse.short": {
+        "subtitle": "sound.pushtomeow.meow",
+        "sounds": [
+            "pushtomeow:meow/meowcoarseshort1",
+            "pushtomeow:meow/meowcoarseshort2",
+            "pushtomeow:meow/meowcoarseshort3",
+            "pushtomeow:meow/meowcoarseshort4",
+            "pushtomeow:meow/meowcoarseshort5",
+            "pushtomeow:meow/meowcoarseshort6",
+            "pushtomeow:meow/meowcoarseshort7",
+            "pushtomeow:meow/meowcoarseshort8"
+        ]
+    },
+    "meow.fat": {
+        "subtitle": "sound.pushtomeow.meow",
+        "sounds": [
+            "pushtomeow:meow/meowfat1",
+            "pushtomeow:meow/meowfat2",
+            "pushtomeow:meow/meowfat3",
+            "pushtomeow:meow/meowfat4",
+            "pushtomeow:meow/meowfat5",
+            "pushtomeow:meow/meowfat6",
+            "pushtomeow:meow/meowfat7",
+            "pushtomeow:meow/meowfat8"
+        ]
+    },
+    "meow.fat.short": {
+        "subtitle": "sound.pushtomeow.meow",
+        "sounds": [
+            "pushtomeow:meow/meowfatshort1",
+            "pushtomeow:meow/meowfatshort2",
+            "pushtomeow:meow/meowfatshort3",
+            "pushtomeow:meow/meowfatshort4",
+            "pushtomeow:meow/meowfatshort5",
+            "pushtomeow:meow/meowfatshort6",
+            "pushtomeow:meow/meowfatshort7",
+            "pushtomeow:meow/meowfatshort8"
+        ]
+    },
+    "meow.normal": {
+        "subtitle": "sound.pushtomeow.meow",
+        "sounds": [
+            "pushtomeow:meow/meownormal1",
+            "pushtomeow:meow/meownormal2",
+            "pushtomeow:meow/meownormal3",
+            "pushtomeow:meow/meownormal4",
+            "pushtomeow:meow/meownormal5",
+            "pushtomeow:meow/meownormal6",
+            "pushtomeow:meow/meownormal7",
+            "pushtomeow:meow/meownormal8"
+        ]
+    },
+    "meow.normal.short": {
+        "subtitle": "sound.pushtomeow.meow",
+        "sounds": [
+            "pushtomeow:meow/meownormalshort1",
+            "pushtomeow:meow/meownormalshort2",
+            "pushtomeow:meow/meownormalshort3",
+            "pushtomeow:meow/meownormalshort4",
+            "pushtomeow:meow/meownormalshort5",
+            "pushtomeow:meow/meownormalshort6",
+            "pushtomeow:meow/meownormalshort7",
+            "pushtomeow:meow/meownormalshort8"
+        ]
+    },
+    "meow.pup": {
+        "subtitle": "sound.pushtomeow.meow",
+        "sounds": [
+            "pushtomeow:meow/meowpup1",
+            "pushtomeow:meow/meowpup2",
+            "pushtomeow:meow/meowpup3",
+            "pushtomeow:meow/meowpup4",
+            "pushtomeow:meow/meowpup5",
+            "pushtomeow:meow/meowpup6",
+            "pushtomeow:meow/meowpup7",
+            "pushtomeow:meow/meowpup8"
+        ]
+    },
+    "meow.pup.short": {
+        "subtitle": "sound.pushtomeow.meow",
+        "sounds": [
+            "pushtomeow:meow/meowpupshort1",
+            "pushtomeow:meow/meowpupshort2",
+            "pushtomeow:meow/meowpupshort3",
+            "pushtomeow:meow/meowpupshort4",
+            "pushtomeow:meow/meowpupshort5",
+            "pushtomeow:meow/meowpupshort6",
+            "pushtomeow:meow/meowpupshort7",
+            "pushtomeow:meow/meowpupshort8"
+        ]
+    },
+    "meow.rivulet.a": {
+        "subtitle": "sound.pushtomeow.meow",
+        "sounds": [
+            "pushtomeow:meow/meowrivuleta1",
+            "pushtomeow:meow/meowrivuleta2",
+            "pushtomeow:meow/meowrivuleta3",
+            "pushtomeow:meow/meowrivuleta4",
+            "pushtomeow:meow/meowrivuleta5",
+            "pushtomeow:meow/meowrivuleta6",
+            "pushtomeow:meow/meowrivuleta7",
+            "pushtomeow:meow/meowrivuleta8"
+        ]
+    },
+    "meow.rivulet.a.short": {
+        "subtitle": "sound.pushtomeow.meow",
+        "sounds": [
+            "pushtomeow:meow/meowrivuletashort1",
+            "pushtomeow:meow/meowrivuletashort2",
+            "pushtomeow:meow/meowrivuletashort3",
+            "pushtomeow:meow/meowrivuletashort4",
+            "pushtomeow:meow/meowrivuletashort5",
+            "pushtomeow:meow/meowrivuletashort6",
+            "pushtomeow:meow/meowrivuletashort7",
+            "pushtomeow:meow/meowrivuletashort8"
+        ]
+    },
+    "meow.rivulet.b": {
+        "subtitle": "sound.pushtomeow.meow",
+        "sounds": [
+            "pushtomeow:meow/meowrivuletb1",
+            "pushtomeow:meow/meowrivuletb2",
+            "pushtomeow:meow/meowrivuletb3",
+            "pushtomeow:meow/meowrivuletb4",
+            "pushtomeow:meow/meowrivuletb5",
+            "pushtomeow:meow/meowrivuletb6",
+            "pushtomeow:meow/meowrivuletb7",
+            "pushtomeow:meow/meowrivuletb8"
+        ]
+    },
+    "meow.rivulet.b.short": {
+        "subtitle": "sound.pushtomeow.meow",
+        "sounds": [
+            "pushtomeow:meow/meowrivuletbshort1",
+            "pushtomeow:meow/meowrivuletbshort2",
+            "pushtomeow:meow/meowrivuletbshort3",
+            "pushtomeow:meow/meowrivuletbshort4",
+            "pushtomeow:meow/meowrivuletbshort5",
+            "pushtomeow:meow/meowrivuletbshort6",
+            "pushtomeow:meow/meowrivuletbshort7",
+            "pushtomeow:meow/meowrivuletbshort8"
+        ]
+    },
+    "meow.sofanthiel": {
+        "subtitle": "sound.pushtomeow.meow.bruh",
+        "sounds": [
+            "pushtomeow:meow/meowsofanthiel"
+        ]
+    },
+    "meow.sofanthiel.short": {
+        "subtitle": "sound.pushtomeow.meow.bruh",
+        "sounds": [
+            "pushtomeow:meow/meowsofanthielshort"
+        ]
+    },
+    "meow.spear": {
+        "subtitle": "sound.pushtomeow.meow.spear",
+        "sounds": [
+            "pushtomeow:meow/meowspear1",
+            "pushtomeow:meow/meowspear2",
+            "pushtomeow:meow/meowspear3",
+            "pushtomeow:meow/meowspear4"
+        ]
+    },
+    "meow.spear.short": {
+        "subtitle": "sound.pushtomeow.meow.spear",
+        "sounds": [
+            "pushtomeow:meow/meowspearshort1",
+            "pushtomeow:meow/meowspearshort2",
+            "pushtomeow:meow/meowspearshort3",
+            "pushtomeow:meow/meowspearshort4"
+        ]
+    },
+    "meow.watcher": {
+        "subtitle": "sound.pushtomeow.meow",
+        "sounds": [
+            "pushtomeow:meow/meowwatcher1",
+            "pushtomeow:meow/meowwatcher2",
+            "pushtomeow:meow/meowwatcher3",
+            "pushtomeow:meow/meowwatcher4",
+            "pushtomeow:meow/meowwatcher5",
+            "pushtomeow:meow/meowwatcher6",
+            "pushtomeow:meow/meowwatcher7",
+            "pushtomeow:meow/meowwatcher8"
+        ]
+    },
+    "meow.watcher.short": {
+        "subtitle": "sound.pushtomeow.meow",
+        "sounds": [
+            "pushtomeow:meow/meowwatchershort1",
+            "pushtomeow:meow/meowwatchershort2",
+            "pushtomeow:meow/meowwatchershort3",
+            "pushtomeow:meow/meowwatchershort4",
+            "pushtomeow:meow/meowwatchershort5",
+            "pushtomeow:meow/meowwatchershort6",
+            "pushtomeow:meow/meowwatchershort7"
+        ]
+    },
+    "meow.whispery": {
+        "subtitle": "sound.pushtomeow.meow",
+        "sounds": [
+            "pushtomeow:meow/meowwhispery1",
+            "pushtomeow:meow/meowwhispery2",
+            "pushtomeow:meow/meowwhispery3",
+            "pushtomeow:meow/meowwhispery4",
+            "pushtomeow:meow/meowwhispery5",
+            "pushtomeow:meow/meowwhispery6",
+            "pushtomeow:meow/meowwhispery7",
+            "pushtomeow:meow/meowwhispery8"
+        ]
+    },
+    "meow.whispery.short": {
+        "subtitle": "sound.pushtomeow.meow",
+        "sounds": [
+            "pushtomeow:meow/meowwhisperyshort1",
+            "pushtomeow:meow/meowwhisperyshort2",
+            "pushtomeow:meow/meowwhisperyshort3",
+            "pushtomeow:meow/meowwhisperyshort4",
+            "pushtomeow:meow/meowwhisperyshort5",
+            "pushtomeow:meow/meowwhisperyshort6",
+            "pushtomeow:meow/meowwhisperyshort7",
+            "pushtomeow:meow/meowwhisperyshort8"
+        ]
+    },
+    "meow.katzen": {
+        "subtitle": "sound.pushtomeow.meow.spear",
+        "sounds": [
+            "pushtomeow:meow/meowkatzeneasteregg"
+        ]
+    },
+
+
+    "meow.altinv.andrew": {
+        "subtitle": "sound.pushtomeow.meow.bruh",
+        "sounds": [
+            "pushtomeow:meow/altinv/meowandrew1",
+            "pushtomeow:meow/altinv/meowandrew2",
+            "pushtomeow:meow/altinv/meowandrew3"
+        ]
+    },
+    "meow.altinv.andrew.short": {
+        "subtitle": "sound.pushtomeow.meow.bruh",
+        "sounds": [
+            "pushtomeow:meow/altinv/meowandrewshort1",
+            "pushtomeow:meow/altinv/meowandrewshort2"
+        ]
+    },
+    "meow.altinv.inv": {
+        "subtitle": "sound.pushtomeow.meow.bruh",
+        "sounds": [
+            "pushtomeow:meow/altinv/meowinv1"
+        ]
+    },
+    "meow.altinv.inv.short": {
+        "subtitle": "sound.pushtomeow.meow.bruh",
+        "sounds": [
+            "pushtomeow:meow/altinv/meowinvshort1"
+        ]
+    }
+}
