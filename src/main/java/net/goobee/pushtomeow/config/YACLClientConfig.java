@@ -1,7 +1,10 @@
 package net.goobee.pushtomeow.config;
 
 import dev.isxander.yacl3.api.*;
-import dev.isxander.yacl3.api.controller.*;
+import dev.isxander.yacl3.api.controller.EnumControllerBuilder;
+import dev.isxander.yacl3.api.controller.FloatFieldControllerBuilder;
+import dev.isxander.yacl3.api.controller.FloatSliderControllerBuilder;
+import dev.isxander.yacl3.api.controller.IntegerSliderControllerBuilder;
 import dev.isxander.yacl3.config.v2.api.ConfigClassHandler;
 import dev.isxander.yacl3.config.v2.api.SerialEntry;
 import dev.isxander.yacl3.config.v2.api.serializer.GsonConfigSerializerBuilder;
@@ -14,11 +17,7 @@ import net.minecraft.client.gui.screen.Screen;
 import net.minecraft.client.sound.PositionedSoundInstance;
 import net.minecraft.text.Text;
 import net.minecraft.util.Identifier;
-import net.minecraft.util.math.MathHelper;
 import net.minecraft.util.math.random.Random;
-
-import java.util.ArrayList;
-import java.util.Arrays;
 
 public class YACLClientConfig {
     public enum soundModifierType {

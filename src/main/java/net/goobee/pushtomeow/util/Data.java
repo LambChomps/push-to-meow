@@ -10,18 +10,17 @@ import net.minecraft.server.network.ServerPlayerEntity;
 import net.minecraft.text.Text;
 
 public class Data {
-    public static int updateCooldown(IEntityDataSaver player, int amount) {
+    public static void updateCooldown(IEntityDataSaver player, int amount) {
         NbtCompound nbt = player.pushtomeow$getPersistentData();
         int cooldown = nbt.getInt("meow_cooldown");
 
-        if (amount < 0 && cooldown == 0) return cooldown;
+        if (amount < 0 && cooldown == 0) return;
 
         cooldown += amount;
         if (cooldown < 0) cooldown = 0;
 
         nbt.putInt("meow_cooldown", cooldown);
         syncCustomNBT((ServerPlayerEntity) player, cooldown);
-        return cooldown;
     }
 
     public static void syncCustomNBT(ServerPlayerEntity player, int cooldown){

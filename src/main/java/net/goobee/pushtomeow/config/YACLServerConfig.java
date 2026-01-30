@@ -4,13 +4,8 @@ import dev.isxander.yacl3.config.v2.api.ConfigClassHandler;
 import dev.isxander.yacl3.config.v2.api.SerialEntry;
 import dev.isxander.yacl3.config.v2.api.serializer.GsonConfigSerializerBuilder;
 import net.fabricmc.loader.api.FabricLoader;
-import net.goobee.pushtomeow.CustomSounds;
 import net.goobee.pushtomeow.PushToMeow;
 import net.minecraft.util.Identifier;
-
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.List;
 
 public class YACLServerConfig {
     // Config File:
@@ -22,7 +17,7 @@ public class YACLServerConfig {
                     .build())
             .build();
 
-    public static String[] soundBlacklistArray = {CustomSounds.MEOW_KATZEN.getId().toString(), "pushtomeow:meow.example"};
+//    public static String[] soundBlacklistArray = {CustomSounds.MEOW_KATZEN.getId().toString(), "pushtomeow:meow.example"};
     // Config Entries:
     @SerialEntry(comment = "Don't touch !")
     public static int configVersion = 1;

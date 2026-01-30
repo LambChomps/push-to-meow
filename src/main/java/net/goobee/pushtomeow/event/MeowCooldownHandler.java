@@ -3,7 +3,6 @@ package net.goobee.pushtomeow.event;
 import net.fabricmc.fabric.api.event.lifecycle.v1.ServerTickEvents;
 import net.goobee.pushtomeow.util.Data;
 import net.goobee.pushtomeow.util.IEntityDataSaver;
-import net.minecraft.nbt.NbtCompound;
 import net.minecraft.server.MinecraftServer;
 import net.minecraft.server.network.ServerPlayerEntity;
 

@@ -12,9 +12,7 @@
   "icon": "assets/pushtomeow/icon.png",
   "environment": "*",
   "entrypoints": {
-    "fabric-datagen": [
-      "net.goobee.pushtomeow.client.PushToMeowDataGenerator"
-    ],
+    "fabric-datagen": [],
     "client": [
       "net.goobee.pushtomeow.client.PushToMeowClient"
     ],
