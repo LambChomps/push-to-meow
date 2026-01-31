@@ -5,14 +5,8 @@ import net.minecraft.registry.Registry;
 import net.minecraft.sound.SoundEvent;
 import net.minecraft.util.Identifier;
 
-import java.util.ArrayList;
-import java.util.List;
-
 public class CustomSounds {
     private CustomSounds() {}
-
-    public static List<SoundEvent> soundList = new ArrayList<>();
-
     public static final SoundEvent MEOW_COARSE = registerSound("meow.coarse");
     public static final SoundEvent MEOW_COARSE_SHORT = registerSound("meow.coarse.short");
     public static final SoundEvent MEOW_FAT = registerSound("meow.fat");
@@ -40,14 +34,13 @@ public class CustomSounds {
 
     private static SoundEvent registerSound(String id) {
         Identifier identifier = new Identifier(PushToMeow.MOD_ID, id);
-        SoundEvent sound = Registry.register(Registries.SOUND_EVENT, identifier, SoundEvent.of(identifier));
-        if (!soundList.contains(sound)) soundList.add(sound);
-        return sound;
+        return Registry.register(Registries.SOUND_EVENT, identifier, SoundEvent.of(identifier));
     }
 
     public static void initialize() {
         if (PushToMeow.DEBUG) {
             PushToMeow.LOGGER.info(PushToMeow.MOD_ID + " -- Registering sounds...");
         }
+        Registries.SOUND_EVENT.getEntrySet();
     }
 }

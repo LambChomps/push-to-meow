@@ -10,14 +10,17 @@ import dev.isxander.yacl3.config.v2.api.SerialEntry;
 import dev.isxander.yacl3.config.v2.api.serializer.GsonConfigSerializerBuilder;
 import net.fabricmc.loader.api.FabricLoader;
 import net.goobee.pushtomeow.CustomSound;
-import net.goobee.pushtomeow.CustomSounds;
 import net.goobee.pushtomeow.PushToMeow;
 import net.minecraft.client.MinecraftClient;
 import net.minecraft.client.gui.screen.Screen;
 import net.minecraft.client.sound.PositionedSoundInstance;
+import net.minecraft.sound.SoundEvent;
 import net.minecraft.text.Text;
 import net.minecraft.util.Identifier;
 import net.minecraft.util.math.random.Random;
+
+import java.util.ArrayList;
+import java.util.List;
 
 public class YACLClientConfig {
     public enum soundModifierType {
@@ -25,6 +28,15 @@ public class YACLClientConfig {
         INVERTED,
         ALWAYS,
         NEVER
+    }
+
+    public static List<SoundEvent> createSoundList() {
+        List<SoundEvent> soundList = new ArrayList<>();
+        for (CustomSound sound : CustomSound.values()) {
+            soundList.add(sound.getSoundEvent());
+        }
+        PushToMeow.LOGGER.info(soundList.toString());
+        return soundList;
     }
 
     // Config File:
@@ -62,6 +74,7 @@ public class YACLClientConfig {
     public static Screen config(Screen parentScreen) {
         HANDLER.load();
         YACLServerConfig.HANDLER.load();
+        List<SoundEvent> soundList = createSoundList();
         return YetAnotherConfigLib.createBuilder()
                 .title(Text.translatable("config.menu.pushtomeow.main"))
                 // Client Config Menu:
@@ -81,7 +94,7 @@ public class YACLClientConfig {
                                 .text(Text.empty())
                                 .action((yaclScreen, buttonOption) -> {
                                     MinecraftClient.getInstance().getSoundManager().play(PositionedSoundInstance.master(
-                                            CustomSounds.soundList.get(Random.create().nextInt(CustomSounds.soundList.size())), configPitchDefault, 1.0f));
+                                            soundList.get(Random.create().nextInt(soundList.size())), configPitchDefault, 1.0f));
                                     if (fa == F1) fa = F2; else fa = F1;
                                     HANDLER.save();
                                     Screen screen = config(parentScreen);
