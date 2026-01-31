@@ -16,7 +16,7 @@ import net.minecraft.server.network.ServerPlayNetworkHandler;
 import net.minecraft.server.network.ServerPlayerEntity;
 import net.minecraft.text.Text;
 import net.minecraft.util.math.MathHelper;
-import net.minecraft.util.math.Position;
+import net.minecraft.util.math.Vec3d;
 
 import java.util.HashSet;
 import java.util.Set;
@@ -28,7 +28,6 @@ public class MeowC2SPacket {
         int cooldown = nbt.getInt("meow_cooldown");
         if (cooldown > 0) return; // Server cooldown check
 
-        Position pos = player.getEyePos();
         int serverCooldown = Math.round(YACLServerConfig.cooldown * 20);
         float soundVolume = YACLServerConfig.volume;
         float soundPitch = buf.readFloat();
@@ -80,6 +79,7 @@ public class MeowC2SPacket {
 
         // Debug:
         if (PushToMeow.DEBUG) {
+            Vec3d pos = player.getEyePos();
             server.sendMessage(Text.of(
                     "Received meow from " + player.getName().getString() + " at location: " + pos + " at pitch: " + soundPitch + " (" + pitchAngle + "°)"));
             server.sendMessage(Text.of("Bufs: " + buf.getFloat(0) + ", " + pitchEffect + ", " + pitchAngleDefault + ", " + pitchAngleMax
